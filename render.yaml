@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: websocket-echo
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python server.py
+    autoDeploy: true
